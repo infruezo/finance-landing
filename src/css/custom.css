@@ -1,4 +1,4 @@
-#faq {
+#faq-section {
   background-image: url(https://sharesbrokers.com/wp-content/themes/sharesbrokers/assets/images/faq.png);
   height: 100%;
   width: 100%;
@@ -7,6 +7,9 @@
   background-repeat: no-repeat;
 }
 
-details summary::-webkit-details-marker {
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
   display: none;
 }
