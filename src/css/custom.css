@@ -1,0 +1,12 @@
+#faq {
+  background-image: url(https://sharesbrokers.com/wp-content/themes/sharesbrokers/assets/images/faq.png);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
