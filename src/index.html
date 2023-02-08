@@ -85,11 +85,13 @@
 
     <!-- main page content -->
     <!-- wrapper -->
-    <section class="-top-24 block h-full w-full bg-[#fafbff]">
+    <section class="block h-full w-full bg-[#fafbff]">
       <div class="mx-auto h-full w-full max-w-screen-xl py-16 px-2">
-        <div class="flex flex-col space-y-8">
+        <div class="relative flex flex-col space-y-8">
           <!-- one element -->
-          <div class="w-full rounded-lg bg-white shadow-lg shadow-slate-300">
+          <div
+            class="absolute -top-40 w-full rounded-lg bg-white shadow-lg shadow-slate-300"
+          >
             <div
               class="flex h-full w-full flex-col items-center py-8 lg:flex-row"
             >
@@ -250,7 +252,9 @@
           </div>
 
           <!-- one element -->
-          <div class="w-full rounded-lg bg-white shadow-lg shadow-slate-300">
+          <div
+            class="!mt-80 w-full rounded-lg bg-white shadow-lg shadow-slate-300 lg:!mt-16"
+          >
             <div
               class="flex h-full w-full flex-col items-center py-8 lg:flex-row"
             >
@@ -742,7 +746,7 @@
 
     <!-- footer -->
     <footer class="mt-16 h-full w-full bg-[#fbfcff] py-16 text-sm">
-      <div class="mx-auto flex max-w-screen-xl flex-col space-y-8 px-2">
+      <div class="mx-auto flex max-w-screen-xl flex-col space-y-8 px-4">
         <p class="text-2xl font-bold text-gray-900">ShareBrokers</p>
 
         <!-- main footer content -->
