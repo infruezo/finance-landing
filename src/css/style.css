@@ -1229,6 +1229,10 @@ video {
     display: none;
   }
 
+  .lg\:\!hidden {
+    display: none !important;
+  }
+
   .lg\:h-10 {
     height: 2.5rem;
   }
